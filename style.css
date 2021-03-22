@@ -1,0 +1,26 @@
+body, html {
+    height: 100%;
+  }
+.nav-link{
+    text-transform: uppercase;
+    transition: all .5s;
+}
+.nav-link:hover{
+    border-bottom: 2px solid green;
+    padding: 4px;
+    transition: all .5s;
+}
+#head1{
+    font-size: 60px;
+}
+.home{
+    background-image: url(image/restaurant.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#header{
+    padding-top: 20rem;
+}
